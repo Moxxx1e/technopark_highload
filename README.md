@@ -83,5 +83,5 @@ RPS на статику = 160 * 3.85 * 33 * 10^6 = 441145 rps
 
 
 ### 3. Логическая схема базы данных
-![Иллюстрация к проекту](https://github.com/Moxxx1e/technopark_highload/raw/main/img/db_sheme_highload.png)
+![Иллюстрация к проекту](https://github.com/Moxxx1e/technopark_highload/raw/main/img/db_schema_highload.png)
 
