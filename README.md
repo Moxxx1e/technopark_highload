@@ -105,6 +105,6 @@ RPS на статику = 160 * 3.85 * 33 * 10^6 = 441145 RPS
 В качестве очереди сообщений будем использовать Kafka, а для хранения логов и отслеживания ошибок - Elastic Stack. 
 
 ### 6. Схема проекта
-![Иллюстрация к проекту](https://github.com/Moxxx1e/technopark_highload/raw/main/img/netflix_arch.png)
+![Иллюстрация к проекту](https://github.com/Moxxx1e/technopark_highload/raw/main/img/netflix_arch_1.png)
 
 
