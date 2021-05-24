@@ -135,7 +135,7 @@ CDN-сервера расположим в ISP(провайдеры интерн
 
 ![Иллюстрация к проекту](https://github.com/Moxxx1e/technopark_highload/raw/main/img/netflix_cdn_map.jpeg)
 
-Для оптимизации чтения популярный контент (10 - 20%) можно хранить в оперативной памяти. Сервера будут пополняться на основе данных из сервиса рекомендаций.
+Для оптимизации чтения популярный контент (10 - 20%) можно хранить в оперативной памяти. Сервера будут пополняться с использованием проактивного кэширования на основе данных из сервиса рекомендаций.
 
 Конфигурация CDN-сервера:
 
@@ -154,6 +154,13 @@ RAM: 512 GB
 [Netflix system design overview](https://medium.com/@narengowda/netflix-system-design-dbec30fede8d)
 
 [Как мы в ivi переписывали etl: Flink+Kafka+ClickHouse](https://habr.com/ru/company/ivi/blog/347408/)
+
+[Serving 100 Gbps from an Open Connect Appliance] (https://netflixtechblog.com/serving-100-gbps-from-an-open-connect-appliance-cdb51dda3b99)
+
+[Content Popularity for Open Connect] (https://netflixtechblog.com/content-popularity-for-open-connect-b86d56f613b)
+
+[How Netflix Works With ISPs Around the Globe to Deliver a Great Viewing Experience](https://about.netflix.com/en/news/how-netflix-works-with-isps-around-the-globe-to-deliver-a-great-viewing-experience)
+
 
 ### 5. Выбор технологий
 В качестве основного языка программирования будем использовать Go, из-за высокой скорости работы, эффективных средств конкурентного программирования и удобной работы с зависимостями. Для обучения моделей и работы с рекомендациями подойдет Python, как зарекомендовавшее себя решение в этой области. 
