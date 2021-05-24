@@ -155,9 +155,9 @@ RAM: 512 GB
 
 [Как мы в ivi переписывали etl: Flink+Kafka+ClickHouse](https://habr.com/ru/company/ivi/blog/347408/)
 
-[Serving 100 Gbps from an Open Connect Appliance] (https://netflixtechblog.com/serving-100-gbps-from-an-open-connect-appliance-cdb51dda3b99)
+[Serving 100 Gbps from an Open Connect Appliance](https://netflixtechblog.com/serving-100-gbps-from-an-open-connect-appliance-cdb51dda3b99)
 
-[Content Popularity for Open Connect] (https://netflixtechblog.com/content-popularity-for-open-connect-b86d56f613b)
+[Content Popularity for Open Connect](https://netflixtechblog.com/content-popularity-for-open-connect-b86d56f613b)
 
 [How Netflix Works With ISPs Around the Globe to Deliver a Great Viewing Experience](https://about.netflix.com/en/news/how-netflix-works-with-isps-around-the-globe-to-deliver-a-great-viewing-experience)
 
