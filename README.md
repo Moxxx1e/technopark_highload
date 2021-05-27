@@ -168,7 +168,7 @@ RAM: 512 GB
 
 В качестве очереди сообщений будем использовать Kafka, а для хранения логов и отслеживания ошибок - Elastic Stack. 
 
-Для хранения оригиналов видео подойдет хранилище от Amazon - Amazon S3.
+Для хранения видео подойдет хранилище от Amazon - Amazon S3.
 
 ### 6. Схема проекта
 ![Иллюстрация к проекту](https://github.com/Moxxx1e/technopark_highload/raw/main/img/netflix_arch_fixed_2.png)
