@@ -171,6 +171,6 @@ RAM: 512 GB
 Для хранения оригиналов видео подойдет хранилище от Amazon - Amazon S3.
 
 ### 6. Схема проекта
-![Иллюстрация к проекту](https://github.com/Moxxx1e/technopark_highload/raw/main/img/netflix_arch_1.png)
+![Иллюстрация к проекту](https://github.com/Moxxx1e/technopark_highload/raw/main/img/netflix_arch_fixed.png)
 
 
