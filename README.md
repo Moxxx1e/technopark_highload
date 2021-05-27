@@ -161,6 +161,8 @@ RAM: 512 GB
 
 [How Netflix Works With ISPs Around the Globe to Deliver a Great Viewing Experience](https://about.netflix.com/en/news/how-netflix-works-with-isps-around-the-globe-to-deliver-a-great-viewing-experience)
 
+[Open Connect Appliances](https://openconnect.netflix.com/en/appliances/#the-hardware)
+
 
 ### 5. Выбор технологий
 В качестве основного языка программирования будем использовать Go, из-за высокой скорости работы, эффективных средств конкурентного программирования и удобной работы с зависимостями. Для обучения моделей и работы с рекомендациями подойдет Python, как зарекомендовавшее себя решение в этой области. 
