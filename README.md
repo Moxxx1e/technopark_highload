@@ -151,7 +151,7 @@ movies = 4 + 128 + 128 + 8 = 268
 tv_shows = 4 + 4 + 8 = 16
 episodes = 4 + 4 + 128 + 128 + 512 + 128 + 8 ~ 1000
 seasons = 4 + 4 + 4 + 4 + 128 = 144
-genres = 4 + 64 = 68
+genres, persons, countries, tags = 4 + 64 = 68
 content_genre, content_country, content_person, content_tag = 4 + 8 + 4 = 16
 
 Для 200млн пользователей:
@@ -160,6 +160,23 @@ Subscriptions = 5,2 ГБ
 
 Пусть у каждого пользователя за год в избранном 30 единиц контента. 
 favourites = 24 * 200 * 10^6 * 30 = 130 ГБ/год
+Таблица для лайков аналогично ~ 130 ГБ/год
+
+sessions = 200 * 10^6 * 88 ~ 17,6 ГБ
+
+viewed = 33 * 10^6 * 2 * 40 = 2,64 ГБ/день
+
+content = 2000 * 5817 = 0,011634 ГБ
+movies = 268 * 2326 = 0,000623368
+tv_shows = 16 * 3496 = 5,5856e-5
+seasons = 144 * 3496 *  3 = 0,001510272
+genres + tags = 68 * 3000 = 0,000204
+persons = 68 * 9 * 10^6 = 0,612
+countries = 68 * 150 = 1,02e-5
+content_genre = 1500 * 5817 * 16 = 0,139608
+content_tag = 1500 * 5817 * 16 = 0,139608
+content_country = 3 * 16 * 5817 = 0,000279216
+content_person = 15 * 5817 * 16 = 0,00139608
 
 ```
 
